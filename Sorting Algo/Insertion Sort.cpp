@@ -34,17 +34,17 @@ void InsertionSort(int A[], int n)
 			j = j - 1;
 		}
 		A[j] = element; // place element at jth position
-		DisplayWizF(A,7,i);
+		DisplayWizF(A,6,i);
 	}
 }
 
 int main(){
-	int arr[]={45,3,12,7,56,10,34};
+	int arr[]={64,5,1,98,8,6};
 	cout<<"The content of the array b4 sort"<<endl;
-	display(arr,7);
+	display(arr,6);
 	cout<<endl<<endl;
-	InsertionSort(arr,7);
+	InsertionSort(arr,6);
 	cout<<"\nThe content of the array after sort"<<endl;
-	display(arr,7);
+	display(arr,6);
 	return 0;
 }
